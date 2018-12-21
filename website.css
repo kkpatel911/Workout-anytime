@@ -23,3 +23,29 @@ text-transform: uppercase;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 20px;
 }
+/* Join SEction */
+
+.joinSection{
+    align-items: center;
+    background: #333333;
+    color: #fff;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+.h2_joinSection{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+button{
+    background: whitesmoke;
+    margin-left: 60px;
+    padding: 5px;
+
+    border: 10px solid red;
+    border-radius: 10px 20px;
+}
+img{
+width: 100%;
+height: 100%;
+}
