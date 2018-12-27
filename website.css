@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
 }
+body{
+    padding: 0 auto;
+    margin: 0;
+    width: 100%;
+    background: red;
+}
 
 .main-header {
     background: #232a3b;
@@ -50,17 +56,30 @@ button {
     border-radius: 10px 20px;
 }
 
-img {
-    width: 100%;
+.mainpic {
     height: 100%;
 }
 
-/* Container */
+
+span {
+    margin-bottom: 30px;
+    display: block;
+    margin-top: -10px;
+}
+
+/* Container/ Middle part*/
 
 .container {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .fa-4x {
-    color: ;
+    color: rgb(0, 174, 255);
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
 }
