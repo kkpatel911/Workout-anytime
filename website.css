@@ -5,7 +5,6 @@ body{
     padding: 0 auto;
     margin: 0;
     width: 100%;
-    background: red;
 }
 
 .main-header {
@@ -56,10 +55,20 @@ button {
     border-radius: 10px 20px;
 }
 
-.mainpic {
-    height: 100%;
-}
-
+.img {
+    background: #232A3B url("masthead.jpg") no-repeat center;
+    background-position: 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+    font-family: audiowide;
+    font-size: 2.2em;
+    padding: 90px 90px;
+    text-align: center;
+    letter-spacing: 0.12em;
+  }
 
 span {
     margin-bottom: 30px;
